@@ -2,6 +2,9 @@
 /public/build
 /public/hot
 /public/storage
+/storage/app/livewire-tmp
+/storage/app/videos-temp
+/storage/logs
 /vendor
 .env
 .env.backup
