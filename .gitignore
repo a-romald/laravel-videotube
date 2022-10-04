@@ -2,6 +2,8 @@
 /public/build
 /public/hot
 /public/storage
+/public/images
+/public/videos
 /storage/app/livewire-tmp
 /storage/app/videos-temp
 /storage/logs
