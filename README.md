@@ -9,14 +9,14 @@ This project allows to upload video files in mp4 format and encode them into HLS
 - download and unpack project from https://github.com/a-romald/laravel-videotube
 - cd laravel-videotube
 - cp .env.example .env
-- create mysql database and config in .env file DB_DATABASE, DB_USERNAME, DB_PASSWORD
+- create mysql database and config DB_DATABASE, DB_USERNAME, DB_PASSWORD in .env file
 - Install FFMpeg (https://ffmpeg.org/download.html)
 - run `composer install`
 - run `npm install`
 - run `npm run build`
 - run `php artisan migrate`
 - run `php artisan key:generate`
-- check if in .env file QUEUE_CONNECTION=database
+- check if QUEUE_CONNECTION=database in .env file
 - run `php artisan storage:link`
 - run `php artisan serve`
 - run `php artisan queue:work --tries=3` in other terminal
