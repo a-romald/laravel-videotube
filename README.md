@@ -6,7 +6,7 @@ This project allows to upload video files in mp4 format and encode them into HLS
 
 ## Installation
 
-- download and unpack project from https://github.com/a-romald/laravel-videotube
+- clone or download project
 - cd laravel-videotube
 - cp .env.example .env
 - create mysql database and config DB_DATABASE, DB_USERNAME, DB_PASSWORD in .env file

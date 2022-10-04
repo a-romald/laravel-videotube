@@ -21,7 +21,6 @@ class CreateVideo extends Component
     public $videoFile;
     protected $rules = [
         'videoFile' => 'required|mimes:mp4|max:1228800' // 1200 mb
-        //'videoFile' => 'max:1000000|required|file|mimetypes:video/mp4,video/mpeg,video/x-matroska',
     ];
 
 
@@ -44,7 +43,7 @@ class CreateVideo extends Component
         //save the file
         $path = $this->videoFile->store('videos-temp');
 
-        //create video record in sb
+        //create video record
         $this->video = $this->channel->videos()->create([
             'title' => 'untitled',
             'description' => 'none',

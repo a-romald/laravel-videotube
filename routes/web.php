@@ -15,11 +15,11 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    // if logged in - channels that user subscribed to
+    // if logged in show channels that user subscribed to
     if (Auth::check()) {
         $channels = Auth::user()->subscribedChannels()->with('videos')->get()->pluck('videos');
     } else {
-        //else all vidoes
+        //else show all videos
         $channels = App\Models\Channel::get()->pluck('videos');
     }
 

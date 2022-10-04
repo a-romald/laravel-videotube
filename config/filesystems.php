@@ -90,5 +90,3 @@ return [
     ],
 
 ];
-
-// php artisan config:clear

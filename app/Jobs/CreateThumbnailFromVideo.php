@@ -49,9 +49,3 @@ class CreateThumbnailFromVideo implements ShouldQueue
         ]);
     }
 }
-
-
-// php artisan make:job CreateThumbnailFromVideo
-
-// If QUEUE_CONNECTION=database
-// php artisan queue:work --tries=3

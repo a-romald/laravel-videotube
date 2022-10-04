@@ -65,21 +65,4 @@ class VideoEncode extends Command
 }
 
 
-// php artisan make:command VideoEncode --command=video-encode:start
-
 // php artisan video-encode:start
-
-/*
-Progress= 2%  
-Progress= 10% 
-Progress= 12% 
-Progress= 14% 
-Progress= 15% 
-...
-Progress= 96% 
-Progress= 98% 
-Progress= 99% 
-Progress= 100%
-*/
-
-// Result: file.m3u8

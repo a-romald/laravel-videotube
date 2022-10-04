@@ -47,8 +47,3 @@ class EditVideo extends Component
     }
 
 }
-
-
-// http://myt.loc/videos/coursat/1632d15af031fd/edit
-
-// php artisan queue:work --tries=3

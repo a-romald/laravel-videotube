@@ -81,6 +81,3 @@ class ConvertVideoForStreaming implements ShouldQueue
     }
 
 }
-
-
-// php artisan make:job ConvertVideoForStreaming
